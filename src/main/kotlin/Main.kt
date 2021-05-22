@@ -1,3 +1,3 @@
 fun main() {
-    println("Hello world!!")
+    print((1905 - 1) / 100 + 1)
 }
