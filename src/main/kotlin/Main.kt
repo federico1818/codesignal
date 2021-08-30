@@ -1,6 +1,6 @@
-import arcade.intro.Exercise04
+import arcade.intro.Exercise05
 
 fun main() {
-    val ex = Exercise04()
-    println(ex.adjacentElementsProduct(arrayListOf(3, 6, -2, -5, 7, 3)))
+    val ex = Exercise05()
+    println(ex.shapeArea(10))
 }
