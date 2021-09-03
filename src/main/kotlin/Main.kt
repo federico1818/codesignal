@@ -1,6 +1,6 @@
-import arcade.intro.Exercise05
+import arcade.intro.Exercise06
 
 fun main() {
-    val ex = Exercise05()
-    println(ex.shapeArea(10))
+    val ex = Exercise06()
+    println(ex.makeArrayConsecutive2(arrayListOf(6, 2, 3, 8)))
 }
