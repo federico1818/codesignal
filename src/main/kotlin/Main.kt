@@ -1,6 +1,7 @@
-import arcade.intro.Exercise06
+import arcade.intro.Exercise07
 
 fun main() {
-    val ex = Exercise06()
-    println(ex.makeArrayConsecutive2(arrayListOf(6, 2, 3, 8)))
+    val ex = Exercise07()
+    val test = arrayListOf(1, 3, 2)
+    println(ex.almostIncreasingSequence(test))
 }
