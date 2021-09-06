@@ -1,8 +1,13 @@
-import arcade.intro.Exercise07
+import arcade.intro.Exercise09
 
 fun main() {
-    val ex = Exercise07()
-    val list: MutableList<Int> = mutableListOf(1, 2, 3)
-
-    //println(ex.almostIncreasingSequence(test))
+    val ex = Exercise09()
+    val list: MutableList<String> = mutableListOf(
+        "aba",
+        "aa",
+        "ad",
+        "vcd",
+        "aba"
+    )
+    println(ex.allLongestStrings(list))
 }
